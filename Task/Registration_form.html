@@ -1,0 +1,199 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <title>Registration Form</title>
+  <style>
+    body{
+      background-color: #fff;
+      
+    }
+    table{
+      width: 95%;
+      border-collapse: collapse;
+      margin: 5% auto;
+    
+    }
+    
+    
+    table tr input {
+      width: 95%;
+      height: 40px;
+      padding: 10px 15px;
+      margin-bottom: 5px;
+      border-radius: 3px;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+      border-top-color: #bfbaba;
+      border-width: 1px;
+      
+      
+      
+    }
+    table tr select{
+      width: 95%;
+      height: 40px;
+      padding: 5px 13px;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+      margin-bottom: 5px;
+      border-radius: 3px;
+      
+      
+      
+    }
+
+    table tr td{
+      padding: 5px;
+    }
+    table tr td input[type="checkbox"]{
+      width: 20px;
+      height: 20px;
+      background-color: #ef662f;
+      
+      
+    }
+    
+    button{
+      padding: 10px;
+      margin: 5px;
+      float: right;
+    }
+
+    select{
+      font-size: 17px;
+      color: #616161;
+      background: rgb(255, 255, 255);
+      font-style: italic;
+      font-family: 'palatino linotype';
+    }
+     option{
+      font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+    }
+    table tr select option{
+      color: rgb(177, 171, 171);}
+
+    table tr td input{
+      font-size: 17px;
+      color: #616161;
+      font-style: italic;
+      font-family: 'palatino linotype';
+    }
+
+
+        .as{
+      color: red;
+        }
+        table tr td select option[class="text"]{
+      color: rgb(177, 171, 171) ;
+        }
+
+        h6{
+          font-size: 14px;
+          margin-bottom: -5px;
+        }
+        
+  </style>
+</head>
+<body>
+  <table align="center">
+  <form action="">
+    <tr>
+  <td> <h6> Do you want to do the training in offline or online mode ?<span class="as">*</span></h6><br>
+    <select name="trainng" id="">
+      <option value="" class="text" >-Select Training Mode-</option>
+      <option value="">Offline training</option>
+      <option value="">Online training</option>
+    </select>
+
+</td>
+
+  <td><h6> Where do you want to undergo the training ?<span class="as">*</span></h6><br>
+   <select name="location" id="" >
+    <option value="" class="text">-Select Training Location-</option>
+    <option value="">Softpro House, Jankipuram</option>
+    <option value="">Softpro Full Stack Academy, Gomtinagar</option>
+    <option value="">Softpro India Skill Development Center,Noida</option>
+   </select>
+   </td>
+</tr>
+<tr>
+  <td>
+<h6>Fees Mode<span class="as">*</span></h6> <br>
+   <select name="fee" id="">
+    <option value="" class="text">Registration only</option>
+   </select>
+</td>
+<td>
+<h6>Appliction for<span class="as">*</span></h6> <br>
+<select name="application" id=""> 
+  <option value="" class="text">-Select Training Name-</option>
+</select>
+</td>
+</tr>
+
+<tr>
+  <td>
+<h6>Name<span class="as">*</span></h6> <br>
+<input type="text" name="name" id="" placeholder="Enter Your Name">
+</td>
+<td>
+<h6>Collage Name<span class="as">*</span></h6> <br>
+<input type="text" name="clg" id="" placeholder="Enter Your Collage Name">
+</td>
+</tr>
+<tr>
+  <td>
+<h6>Contact Number<span class="as">*</span></h6> <br>
+<input type="tel" name="tel" placeholder="Enter Your Mobile No.">
+</td>
+<td>
+<h6>Course Pursuing<span class="as">*</span></h6> <br>
+<select name="Pursuing" id="">
+  <option value="" class="text">-Select Course-</option>
+</select>
+</td>
+</tr>
+<tr>
+  <td>
+<h6>Pursuing Year<span class="as">*</span></h6> <br>
+<select name="year" id="">
+  <option value="" class="text">-Select Course Year-</option>
+</select>
+</td>
+<td>
+<h6>Select Technology/Course <span class="as">*</span></h6><br>
+<select name="tech" id="">
+  <option value="" class="text">-Select Technology-</option>
+</select>
+</td>
+</tr>
+<tr>
+  <td>
+<h6>Email Address<span class="as">*</span></h6> <br>
+<input type="email" name="email" id="" placeholder="Enter Your Email">
+<br>
+  </td>
+  <td>
+<h6>Amount in INR(Inclusive GST@18%)<span class="as">*</span> </h6><br>
+<input type="tel" name="amount" id="" placeholder="Your Amount" maxlength="4" >
+</td>
+</tr>
+<tr>
+  <td colspan="2">
+    <input type="checkbox" name="tick" id=""></span> &nbsp; I hereby declare that the particulars provided in the form are correct and I duty agree to the <a href="#.html" style="color: #ef662f; font-weight: bold; text-decoration: none;">Privacy Policy</a> of the company.</td>
+</tr>
+<tr>
+  <td colspan="2">
+  <button style="color: white; background-color: #ef662f; border-radius: 5px; border-color: #ef662f;">PROCEED TO PAY</button>
+  <button style="background:grey;color:white; border-radius: 5px; border-color: gray;">CLEAR</button>
+  </td>
+</tr>
+
+  </form>
+</table>
+</body>
+</html>
+
