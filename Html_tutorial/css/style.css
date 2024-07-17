@@ -1,0 +1,20 @@
+body{
+  background-color: yellow;
+}
+h1{
+  color: blue;
+  background-color: aqua;
+  text-align: center;
+}
+h2{
+  color: red;
+  background-color: aqua;
+  text-align: center;
+}
+
+.dot{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: red;
+}
