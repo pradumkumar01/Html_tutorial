@@ -1,0 +1,202 @@
+#div{
+  height: 1000px;
+  width: 1000px;
+  
+}
+
+#div1{
+  height: 300px;
+  width: 1000px;
+  /* background-color: antiquewhite; */
+}
+#div1-1{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  float: left;
+}
+
+#div1-2{
+  height: 300px;
+  width: 150px;
+  /* background-color: red; */
+  float: left;
+}
+#div1-3{
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  float: left;
+}
+#div2{
+  height: 150px;
+  width: 1000px;
+}
+
+
+
+
+#table1{
+  height: 300px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+#table1 tr td{
+  border: 1px solid black;
+}
+
+#table1 tr td:nth-child(2){
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+/* div2-1 */
+#div2-1{
+  height: 150px;
+  width: 300px;
+  float: left;
+  /* background-color: antiquewhite; */
+}
+
+
+
+
+#table2{
+  height:150px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+#table2 tr td{
+  border: 1px solid black;
+}
+
+
+
+
+/* div2-2 */
+#div2-2{
+  height: 150px;
+  width: 150px;
+  float: left;
+  
+}
+
+
+
+
+
+
+
+
+/* div 3 */
+
+#div3{
+  height: 300px;
+  width: 1000px;
+  /* background-color: antiquewhite; */
+  float: left;
+}
+#div3-1{
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  float: left;
+}
+
+#div3-2{
+  height: 300px;
+  width: 150px;
+  /* background-color: red; */
+  float: left;
+}
+#div3-3{
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  float: left;
+}
+
+#table3{
+  height: 300px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+#table3 tr td{
+  border: 1px solid black;
+}
+
+#table3 tr td:nth-child(2){
+  background-color: blue;
+}
+
+
+
+
+
+/*  div_inside */
+#div_inside{
+  float: inline-start;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 50px;
+}
+
+/*  div_inside_div */
+
+#div_inside_div{
+  float: inline-start;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  margin:30px;
+  border-radius: 50%;
+  background-color:yellow;
+}
+#div_inside_div_red{
+  float: inline-start;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  margin:30px;
+  border-radius: 50%;
+  background-color:red;
+}
+#div_inside_div_green{
+  float: inline-start;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  margin:30px;
+  border-radius: 50%;
+  background-color:green;
+}
+#div_inside_div_blue{
+  float: inline-start;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  margin:30px;
+  border-radius: 50%;
+  background-color:blue;
+}
+
+
+
+
+
+/* box */
+#box{
+  height: 150px; ;
+  width: 150px ;
+  background-color: aqua;
+}
