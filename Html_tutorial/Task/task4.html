@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task-4</title>
+  <style>
+    #div{
+      height: 1000px;
+      width: 1000px;
+    }
+    #parent1{
+      height: 500px;
+      width: 1000px;
+    }
+    #child1{
+      height:500px;
+      width: 500px;
+      background-color: lightseagreen;
+      float: left;
+    }
+    #child2{height:500px;
+      width: 500px;
+      background-color: green;
+      float: left;
+    }
+    #parent2{
+      height: 500px;
+      width: 1000px;
+    }
+    #p2_child1{
+      height: 500px;
+      width: 500px;
+      float: left;
+    }
+    
+
+    #part1{
+      height: 250px;
+      width: 500px;
+    }
+    #part1_1{
+      height: 250px;
+      width: 250px;
+      background-color: green;
+      float: left;
+    }
+    #part1_2{
+      height: 250px;
+      width: 250px;
+      background-color: lightgreen;
+      float: left;
+    }
+    #part2{
+      height: 250px;
+      width: 500px;
+    }
+    #part2_1{
+      height: 250px;
+      width: 250px;
+      float: left;
+    }
+    #part2_child1{
+      height: 62.5px;
+      width: 250px;
+      background-color: brown;
+    }
+    #part2_child2{
+      height: 62.5px;
+      width: 250px;
+      background-color: rgb(78, 62, 62);
+    }
+    #part2_child3{
+      height: 62.5px;
+      width: 250px;
+      background-color: rgb(198, 140, 140);
+    }
+    #part2_child4{
+      height: 62.5px;
+      width: 250px;
+      }
+    #child1_part2{
+      height: 62.5px;
+      width: 83.3px;
+      background-color: brown;
+      float: left;
+    }
+    #child2_part2{
+      height: 62.5px;
+      width: 83.3px;
+      background-color: rgba(113, 83, 83, 0.724);
+      float: left;
+    }
+    #child3_part2{
+      height: 62.5px;
+      width: 83.3px;
+      background-color: brown;
+      float: left;
+    }
+
+    #part2_2{
+      height: 250px;
+      width: 250px;
+      float: left;
+    }
+
+    #last1{
+      height: 125px;
+      width: 250px;
+      float: left;
+    }
+    #last1_child1{
+      height: 125px;
+      width: 125px;
+      background-color: green;
+      float: left;
+    }
+    #last1_child2{
+      height: 125px;
+      width: 125px;
+      background-color: aqua;
+      float: left
+    }
+    #last2{
+      height: 125px;
+      width: 250px;
+      float: left;
+    }
+    #last2_child1{
+      height: 125px;
+      width: 125px;
+      background-color: lightgreen;
+      float: left;
+    }
+    #last2_child2{
+      height: 125px;
+      width: 125px;
+      float: left;
+    }
+
+    #last_one1{
+      height: 62.5px;
+      width: 125px;
+      
+      float: left;
+    }
+
+    #last_one1_1{
+      height: 62.5px;
+      width: 62.5px;
+      background-color: yellow;
+      float: left;
+    }
+    #last_one1_2{
+      height: 62.5px;
+      width: 62.5px;
+      background-color: black;
+      float: left;
+    }
+
+    #last_one2{
+      height: 62.5px;
+      width: 125px;
+      background-color: green;
+      float: left;
+    }
+
+
+
+    /* #part2_2{
+      height: 250px;
+      width: 250px;
+      float: left;
+      background-color: blue;
+    }
+
+    #last1{
+      height: 125px;
+      width: 205px;
+      background-color: black;
+    }
+    #last2{
+      height: 125px;
+      width: 125px;
+      background-color: rgb(210, 196, 196);
+    } */
+
+
+
+
+
+    
+    #p2_child2{
+      height: 500px;
+      width: 500px;
+      background-color: lightseagreen;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div id="div">
+    <div id="parent1">
+      <div id="child1"></div>
+      <div id="child2"></div>
+    </div>
+    <div id="parent2">
+      <div id="p2_child1">
+        <div id="part1">
+          <div id="part1_1"></div>
+          <div id="part1_2"></div>
+        </div>
+        <div id="part2">
+          <div id="part2_1">
+            <div id="part2_child1"></div>
+            <div id="part2_child2"></div>
+            <div id="part2_child3"></div>
+            <div id="part2_child4">
+              <div id="child1_part2"></div>
+              <div id="child2_part2"></div>
+              <div id="child3_part2"></div>
+            </div>
+          </div>
+          
+          <div id="part2_2">
+            <div id="last1">
+              <div id="last1_child1"></div>
+              <div id="last1_child2"></div>
+            </div>
+            <div id="last2">
+              <div id="last2_child1"></div>
+              <div id="last2_child2">
+                <div id="last_one1">
+                    <div id="last_one1_1"></div>
+                    <div id="last_one1_2"></div>
+                </div>
+                <div id="last_one2">
+                  <div id="last_one1_2"></div>
+                  <div id="last_one1_1"></div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="p2_child2"></div>
+    </div>
+  </div>
+</body>
+</html>
