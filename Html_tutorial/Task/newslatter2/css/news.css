@@ -1,0 +1,241 @@
+#div{
+  height: 1250px;
+  width: 1000px;
+  background: rgb(226, 239, 240);
+  /* border: 1px solid black; */
+}
+
+#div1{
+  height: 1200px;
+  width: 250px;
+  /* background: aqua; */
+  float: left;
+  margin: 25px 15px 25px 30px;
+}
+#div1 .box2 h1{
+  float: right;
+  text-align: right;
+  margin-right: 15px;
+  font-size: 40px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#div .box1{
+  height: 250px;
+  width: 250px;
+  background: rgb(71, 177, 218);
+  margin: 0px;
+  border-radius: 150px 150px 0px 150px;
+}
+#div .box2{
+  height: 250px; 
+  width: 250px;
+  background:  rgb(130, 200, 228);
+  margin-top: 15px;
+  border-radius: 150px 0px 150px 150px;
+}
+#div .box2{
+  /* background-color: blue; */
+}
+#div1 .box3{
+  height: 80px;
+  width: 250px;
+  background: rgb(79, 173, 210);
+  text-align: center;
+  margin-top: -8px;
+}
+#div1 .box3 h3{
+  margin: 10px;
+  text-align: justify;
+  color: rgb(11, 63, 11);
+}
+#div1 .box4{
+  background-color: skyblue;
+  margin-top: -10px;
+}
+#div1 .box4 h3{
+  margin: 10px;
+  text-align: justify;
+  color: rgb(66, 117, 66);
+}
+
+
+
+
+
+
+
+
+
+
+/* div2 */
+#div #div2{
+  height: 1200px;
+  width: 645px;
+  /* background: yellow; */
+  float: left;
+  margin: 25px 25px 25px 0px;
+}
+#div #div2 .box1-1{
+  height: 250px;
+  width: 625px;
+  /* background: red; */
+  margin: 0px; 
+}
+#div #div2 .box1-1-1{
+  height: 250px;
+  width: 250px;
+  background: rgb(130, 200, 228);
+  margin: 0px;
+  border-radius: 150px 150px 150px 0px;
+}
+#div2 .box2-1{
+  height: 250px;
+  width: 645px;
+  background-image: url(/images/1.jpeg);
+  background-size: cover;
+  margin-top: 15px;
+  
+}
+#div2 .box2-1 .box2-1-1{
+  height: 250px;
+  width: 250px;
+  background: rgb(71, 177, 218);
+  margin: 0px;
+  border-radius: 0px 150px 150px 150px;
+}
+#div2 .box2-1 .box2-1-1 h2{
+   margin: 20px 80px 0px 20px ;
+float: left;  
+color: white;
+
+}
+#div2 .box2-1 .box2-1-1 ul li{
+  line-height: 30px;
+  color: white;
+}
+#div2 .box3-1{
+  height: 80px;
+  width: 645px;
+  background: skyblue;
+  margin-left: 0px;
+  margin-top: 0px;
+  position:absolute;
+}
+#div2 .box3-1 h1{
+  margin: 30px;
+  text-align: conter;
+
+  font-size: 30px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#div2 .box4-2 h3{
+  height: 250px;
+  width: 200px;
+  margin-top: 100px;
+  /* position: absolute; */
+  margin-left: 10px;
+  float: left;
+  text-align: justify;
+  color: rgb(30, 110, 61);
+}
+#div2 .box4-3 h3{
+  height: 250px;
+  width: 200px;
+  /* background: beige; */
+  margin-top: 100px;
+  /* position: absolute; */
+  margin-left: 10px;
+  color: rgb(30, 110, 61);
+  float: left;
+  text-align: justify;
+  /* border-radius: 0px 150px 150px 0px; */
+}
+#div2 .box4-1 h3{
+  height: 250px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 10px;
+  float: left;
+  text-align: justify;
+  color: rgb(30, 110, 61);
+}
+#div2 .box4-4{
+  height: 60px;
+  width: 650px;
+  background: skyblue;
+  margin-left: 0px;
+  margin-top: 5px;
+  float: left;
+  /* position:absolute; */
+}
+
+#div2 .box4-4 h1{
+  margin: 10px;
+  margin-left:10px ;
+  float: left;
+  color: rgb(12, 79, 12);
+}
+
+
+#div2 .box4-5{
+  height: 60px;
+  width: 650px;
+  /* background: red; */
+  margin-left: 0px;
+  margin-top: 5px;
+  float: left;
+  /* position:absolute; */
+}
+
+#div2 .div4-5 h1{
+  margin: 10px;
+  /* position: absolute; */
+  margin-left:30px ;
+  float: left;
+ 
+}
+
+#div2 .div4-5 h3{
+  margin: 10px;
+  margin-left:10px ;
+  float: left;
+  color: rgb(17, 86, 44);
+
+}
+#div2 .div4-6 h5{
+  margin: 10px;
+  margin-left:10px ;
+  float: left;
+  line-height: 20px;
+  color: rgb(30, 110, 61);
+
+}
+
+
+#text1{
+  float: right;
+  margin-top: -200px;
+  color: rgb(30, 110, 61);
+}
+#text2{
+  float: right;
+  margin-top: -150px;
+  text-align: right;
+  color: rgb(30, 110, 61);
+}
+#text3{
+  float: right;
+  margin-top: -120px;
+  font-size: 38px;
+  margin-right: px;
+  color: rgb(5, 84, 115);
+}
+p{
+  display: inline;
+  text-align: justify;
+  color: rgb(71, 177, 218);
+}
