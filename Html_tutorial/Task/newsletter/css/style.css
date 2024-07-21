@@ -1,0 +1,324 @@
+#outer{
+  height: 1133px;
+  width: 1000px;
+  /* background-color: lightgray; */
+  border: 1px solid black;
+}
+
+#box1{
+  height: 170px;
+  width: 1000px;
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+}
+
+#box1 .box1{
+  margin-top: -15px;
+  height: 80px;
+  width: 1000px;
+  /* background: lightblue; */
+}
+#box1 .box1 ul li {
+  position: relative;
+  margin-left: 20px;
+  float: right;
+  display: inline;
+  margin-top: 60px;
+  margin-right: 20px;
+  font-family: calibri;
+}
+
+#box1 .box2{
+  height: 50px;
+  width: 1000px;
+  background: yellow;
+  /* float: left; */
+  margin-top: 10px;
+}
+#box1 .box2 .text1{
+  height: 50px;
+  width: 330px;
+  background: aqua;
+  float: left;
+}
+/* news */
+#box1 .box2 .text1 h1
+{
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-right: 10px;
+  color: white;
+  font-family: calibri;
+}
+ /* letter */
+#box1 .box2 .text2{
+  height: 50px;
+  width: 330px;
+  background: white;
+  float: left;
+  /* margin-top: 10px; */
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* letter */
+#box1 .box2 .text2 h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 2px;
+   color: black;
+  font-family: calibri;
+}
+
+#box1 .box2 .text3{
+  height: 50px;
+  width: 340px;
+  background: aqua;
+  float: left;
+  /* margin-top: 10px; */
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+#box1 .box2 .text3 h5
+{
+  text-align: justify;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-family: calibri;
+  line-height: 15px;
+}
+
+
+
+#box1 .box3{
+  height: 25px;
+  width: 1000px;
+  /* background: red; */
+  margin-top: 5px;
+  /* float: left; */
+}
+
+#box1 .box3 h5{
+  text-align: center;
+  font-size: 16px;
+  /* font-weight: bold; */
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: calibri;
+  line-height: 15px;
+}
+
+
+
+
+#box2{
+  height:800px;
+  width:1000px;
+  /* background: gold; */
+  border-top: 10px solid aqua;
+}
+#box2 .box1{
+  height: 800px;
+  width: 550px;
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#box2 .box1 .box1-1{
+  height: 80px;
+  width: 550px;
+  background: khaki;
+  /* margin-top: 50px; */
+}
+#box2 .box1 .box1-1 h1{
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: calibri;
+  /* line-height: 15px; */
+}
+
+
+/*  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+#box2 .box1 .box1-2{
+  height: 220px;
+  width: 550px;
+  /* background: lightblue; */
+  margin-top: 10px;
+}
+
+#box2 .box1 .box1-2 .box1-2-1{
+  height: 220px;
+  width: 250px;
+  background: lightblue;
+  margin-top: 10px;
+  float: left;
+}
+#box2 .box1 .box1-2 .box1-2-1 h5{
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: calibri;
+}
+#box2 .box1 .box1-2-2{
+  height: 220px;
+  width: 250px;
+  background: lightblue;
+  margin-top: 10px;
+  float: left;
+  margin-left: 50px;
+}
+#box2 .box1 .box1-2 .box1-2-2 h5{
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: calibri;
+}
+#box2 .box1 .box1-1 h1{
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: calibri;
+  /* line-height: 15px; */
+}
+
+
+/* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+#box2 .box1 .box1-3{
+  height: 180px;
+  width: 550px;
+  background: lightslategray;
+  margin-top: 20px;
+  background-image: url(/images/depositphotos_129694096-stock-photo-two-coworkers-discussing-business-project.jpg);
+  background-size: cover;
+}
+#box2 .box1 .box1-4{
+  height: 70px;
+  width: 550px;
+  background: lightgray;
+  margin-top: 5px;
+}
+#box2 .box1 .box1-4 h2{
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: calibri;
+  /* line-height: 30px; */
+}
+#box2 .box1 .box1-5{
+  height: 200px;
+  width: 550px;
+  /* background: lime; */
+  margin-top: 10px;
+}
+#box2 .box1 .box1-5-1{
+  height: 180px;
+  width: 300px;
+  background: lightgreen;
+  /* margin-top: 10px; */
+  float: left;
+}
+
+#box2 .box1 .box1-5-1 h5{
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: calibri;
+}
+#box2 .box1 .box1-5-2{
+  height: 180px;
+  width: 200px;
+  background: lightgreen;
+  /* margin-top: 10px; */
+  float: left;
+  margin-left: 50px;
+}
+#box2 .box1 .box1-5-2 img{
+  height: 180px;
+  width: 200px;
+  /* margin-top: 10px; */
+  float: left;
+  /* margin-left: 50px; */
+}
+
+
+#box2 .box2{
+  height: 800px;
+  width: 300px;
+  /* background-color: green; */
+  /* border: 1px solid black; */
+  float: right;
+  margin-left: 40px;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+}
+
+#box2 .box2 .box2-1{
+  height: 340px;
+  /* margin-top: 10px; */
+  background: aqua;
+}
+#box2 .box2 .box2-1 img{
+  height: 330px;
+  width: 300px;
+  margin-top: 10px;
+  background: aqua;
+ 
+}
+#box2 .box2 .box2-2{
+  height: 450px;
+  width: 300px;
+  background: aqua;
+  margin-top: 10px;
+}
+
+#box2 .box2 .box2-2 ul li{
+  margin-top: 10px;
+}
+
+#box3{
+  height:90px;
+  width:1000px;
+}
+#box3 .box3-1{
+  height:90px;
+  width:700px;
+  background: white;
+  border-top: 10px solid aqua;
+  float: left;
+  margin-top: -50px;
+  
+}
+#box3 .box3-2{
+  height:90px;
+  width:300px;
+  background: aqua;
+  border-top: 10px solid white;
+  float: left;
+  margin-top: -50px;
+}
