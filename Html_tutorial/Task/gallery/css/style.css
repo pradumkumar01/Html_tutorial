@@ -1,0 +1,419 @@
+body{
+/* background: lightgray; */
+}
+#outer{
+  height: 1200px;
+  width: 1200px;
+  border: 1px solid black;
+  margin: 0px auto;
+  background: gray;
+}
+
+#one{
+  height: 1150px;
+  width: 500px;
+  /* border: 1px solid black; */
+  margin-left:25px ;;
+  margin-top: 25px;
+  float: left;
+  /* background: gray; */
+}
+
+.box{
+  height: 400px;
+  width: 500px;
+  background: #f6f6f6;
+  border-radius: 5px;
+}
+.box-1{
+  height: 400px;
+  width: 250px;
+  /* background: lightcoral; */
+  float: left;
+  /* border-radius: 5px; */
+}
+.span{
+  height: 15px;
+  width: 150px;
+  background: blue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  
+  color: white;
+
+}
+
+.box-2{
+  height: 400px;
+  width: 240px;
+  background: #f6f6f6;
+  float: left;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.box-2 img{
+  height: 299.9px;
+  width: 239px;
+  border-radius: 5px;
+  margin-top: 55px;
+  float: left;
+  /* color: white; */
+}  
+
+.box1{
+  height: 700px;
+  width: 500px;
+  /* border: 1px solid black; */
+  margin-top: 25px;
+  /* background : lightblue; */
+}
+.box1-1{
+  height: 300px;
+  width: 250px;
+  background: lightcoral;
+  float: left;
+  border-radius: 5px;
+}
+.box1-1 img{
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+  
+
+}
+.box1 .box1-1 .google{
+  height: 111px;
+  width: 250px;
+  background: rgb(215, 96, 96);
+  border-radius: 5px;
+
+}
+
+.box1 .box1-1 .google h3{
+  color: white;
+  margin-left: 15px;
+  text-align: justify;
+}
+.box1 .box1-1 .google h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+
+.box1-2{
+  height: 400px;
+  width: 225px;
+  background: lightpink;
+  float: left;
+  margin-left: 25px;
+  border-radius: 5px;
+  
+}
+.box1-2 img{
+  height: 150px;
+  width: 150px;
+  margin: 40px;
+  /* background: red; */
+}
+
+.box1-2 .crome{
+  height: 152px;
+  width: 225px;
+  border-radius: 5px;
+  background: rgb(248, 144, 159);
+}
+
+.box1 .box1-2 .crome h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+.box1 .box1-2 .crome h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+.box1-3{
+  height: 400px;
+  width: 250px;
+  background: #97c022;
+  float: left;
+  margin-top: -75px; 
+  border-radius: 5px; 
+}
+.box1-3 img{
+  height: 150px;
+  width: 150px;
+  margin: 40px;
+  /* background: red; */
+}
+
+.box1-3 .and{
+  height: 152px;
+  width: 250px;
+  background: #accd50;
+  border-radius: 5px;
+}
+
+.box1-3 .and h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+.box1-3 .and h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+
+.box1-4{
+  height: 300px;
+  width: 225px;
+  background: #ffd705;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 5px;  
+}
+.box1-4 img{
+  height: 150px;
+  width: 150px;
+  margin: 30px 30px 0px 30px;
+  /* background: red; */
+}
+
+.box1-4 .music{
+  height: 101px;
+  width: 225px;
+  background: #e3cf6e;
+  border-radius: 5px;
+}
+
+.box1 .box1-4 .music h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+.box1 .box1-4 .music h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+
+/* block 2 start */
+
+#two{
+  height: 1150px;
+  width: 300px;
+  /* border: 1px solid black; */
+  margin-left:25px ;;
+  margin-top: 25px;
+  float: left;
+  border-radius: 5px;
+}
+
+#two .box1{
+  height: 350px;
+  width: 300px;
+  background: lightblue;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+/* gmail */
+#two .box1 img{
+  height: 150px;
+  width: 150px;
+  margin: 40px 0px 0px 75px
+  /* background: red; */
+}
+
+#two .box1 .mail{
+  height: 142px;
+  width: 300px;
+  background: rgb(156, 198, 212);
+  border-radius: 5px;
+}
+
+#two .box1 .mail h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+#two .box1 .mail h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+
+/* news */
+#two .box2{
+  height: 300px;
+  width: 300px;
+  background: lightgreen;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+#two .box2 img{
+  height: 150px;
+  width: 150px;
+  margin: 40px 0px 0px 75px
+  /* background: red; */
+}
+
+#two .box2 .news{
+  height: 100px;
+  width: 300px;
+  background: rgb(156, 198, 212);
+  border-radius: 5px;
+}
+
+#two .box2 .news h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+#two .box2 .news h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+
+/* earth */
+#two .box3{
+  height: 450px;
+  width: 300px;
+  background: darkblue;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+#two .box3 img{
+  height: 200px;
+  width: 200px;
+  margin: 40px 0px 20px 50px
+}
+
+#two .box3 .earth{
+  height: 180px;
+  width: 300px;
+  background:  rgb(53, 53, 165);
+  border-radius: 5px;
+}
+
+#two .box3 .earth h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+#two .box3 .earth h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+
+
+
+#three{
+  height: 1150px;
+  width: 300px;
+  margin-left:25px ;;
+  margin-top: 25px;
+  float: left;
+}
+/* youtube */
+#three .box1{
+  height: 350px;
+  width: 300px;
+  background: rgb(56, 51, 51);
+  margin-top: 25px;
+  border-radius: 5px;
+}
+#three .box1 img{
+  height: 150px;
+  width: 150px;
+  margin: 40px 0px 0px 70px
+}
+
+#three .box1 .youtube{
+  height: 150px;
+  width: 300px;
+  background:  black;
+  border-radius: 5px;
+}
+
+#three .box1 .youtube h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+#three .box1 .youtube h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+/* search */
+#three .box2{
+  height: 300px;
+  width: 300px;
+  background: blue;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+#three .box2 img{
+  height: 150px;
+  width: 150px;
+  margin: 40px 0px 0px 70px
+}
+
+#three .box2 .search{
+  height: 100px;
+  width: 300px;
+  background:  rgb(51, 70, 210);
+  border-radius: 5px;
+}
+
+#three .box2 .search h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+#three .box2 .search h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
+
+/* map */
+#three .box3{
+  height: 450px;
+  width: 300px;
+  background: yellow;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+#three .box3 img{
+  height: 200px;
+  width: 200px;
+  margin: 40px 0px 20px 50px
+}
+
+#three .box3 .map{
+  height: 180px;
+  width: 300px;
+  background:  rgb(200, 200, 87);
+  border-radius: 5px;
+}
+
+#three .box3 .map h3{
+  color: white;
+  margin-left: 15px ;
+  text-align: justify;
+}
+#three .box3 .map h5{
+  color: white;
+  margin: 15px;
+  text-align: justify;
+}
