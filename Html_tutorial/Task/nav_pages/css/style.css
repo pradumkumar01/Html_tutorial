@@ -1,0 +1,26 @@
+#outer{
+  height: 50px;
+  width: 900px;
+  background-color: black;
+  border: 1px solid black;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+#outer a{
+  text-decoration: none;
+  color: white;
+}
+
+#outer a:hover{
+  color: violet;
+}
+
+#outer ul li{
+  display: inline;
+  list-style-type: none;
+  padding: 15px;
+  border: 1px solid black;
+
+}
+

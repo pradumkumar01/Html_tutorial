@@ -1,0 +1,31 @@
+#nav{
+  height: 50px;
+  width: 700px;
+  background: aliceblue;
+  border: 1px solid black;
+}
+
+#nav ul{
+  list-style-type: none;
+
+
+}
+
+#nav ul li{
+ display: inline;
+ padding: 10px;
+
+}
+.span{
+  display: none;
+  margin: 10px;
+  
+}
+#nav ul li:hover .span{
+  display: block;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: gray;
+} 
+

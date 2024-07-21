@@ -1,0 +1,60 @@
+#nav{
+  height: 50px;
+  width: 1000px;
+  /* background-color: yellow; */
+  margin: 0px auto;
+}
+
+#nav .box1{
+  height: 50px;
+  width: 180px;
+  background-color: green;
+  float: left;
+  /* border: 1px solid black; */
+}
+#nav .box2{
+  height: 50px;
+  width: 180px;
+  background-color: green;
+  float: left;
+  margin-left: 15px;
+  /* border: 1px solid black; */
+}
+#nav .box3{
+  height: 50px;
+  width: 180px;
+  background-color: green;
+  float: left;
+  margin-left: 15px;
+  /* border: 1px solid black; */
+}
+#nav .box4{
+  height: 50px;
+  width: 180px;
+  background-color: green;
+  float: left;
+  margin-left: 15px;
+  /* border: 1px solid black; */
+}
+#nav .box5{
+  height: 50px;
+  width: 180px;
+  background-color: green;
+  float: left;
+  margin-left: 15px;
+  /* border: 1px solid black; */
+}
+
+
+ #nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+}
+
+#nav a:hover{
+  background: linear-gradient(purple 30%, lightblue 70%);
+}
